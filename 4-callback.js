@@ -15,7 +15,7 @@ const geo = (location, callBack) => {
       logitude: 0
     };
     callBack(data);
-  }, 2000);
+  }, 1000);
 };
 
 geo("phili", data => {
